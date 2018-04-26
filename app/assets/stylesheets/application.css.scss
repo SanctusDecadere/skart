@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+
+@import 'normalize';
+
+html {
+	background-color:gray;
+
+}
+
+
+
+.nav {
+
+	a {
+		list-style-type: none;
+		text-decoration:none;
+		letter-spacing: 10px;
+		font-size:14px;
+	}
+
+
+	ul {
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+	}
+
+}
+
+
+
+.footer {
+	position:fixed;
+	
+
+}
