@@ -20,6 +20,12 @@
 html {
 	background-color:gray;
 
+
+}
+
+body {
+	margin:0;
+	padding:0;
 }
 
 
@@ -41,6 +47,15 @@ html {
 	}
 
 }
+
+.bgquarry {
+	position:absolute;
+	top:30%;
+	width:100%;
+	height:auto;
+}
+
+
 
 
 figure {
@@ -89,8 +104,9 @@ figure {
 
 
 
-.footer {
-	position:fixed;
+footer {
+	// position:absolute;
 	
-
+	// bottom:1%;
+	// left:1%;
 }
