@@ -19,10 +19,12 @@
 
 html {
 	background-color:gray;
-
 }
 
-
+body {
+	margin:0;
+	padding:0;
+}
 
 .nav {
 
@@ -46,10 +48,66 @@ html {
 
 }
 
+.bgquarry {
+	img {
+		position:absolute;
+		top:30%;
+		width:100%;
+		height:auto;
+	}
+}
 
 
-.footer {
-	position:fixed;
-	
+.about-name {
+	text-align: center;;
+}
+
+.about-image {
+	text-align:center;
+	margin-bottom:50px;
+}
+
+
+.about {
+	display:grid;
+	grid-template-column:1fr 1fr;
+	grid-gap:30px;
+
+	img {
+		grid-column:2/3;
+		grid-row:1/2;
+		width:250px;
+		height:auto;
+		padding:10px;
+	}
+
+	p {
+		grid-column:1/2;
+		padding:10px;
+		line-height:30px;
+	}
 
 }
+
+.contact-form {
+	position:relative;
+	
+	text-align:center;
+}
+
+.footer {
+	position: fixed;
+    // left: 0;
+    margin:0;
+    bottom:0;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
