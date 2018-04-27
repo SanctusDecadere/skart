@@ -43,6 +43,51 @@ html {
 }
 
 
+figure {
+  // float: left;
+  // width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+
+.about-name {
+	text-align: center;;
+}
+
+
+.about {
+	display:grid;
+	grid-template-column:1fr 1fr;
+	grid-gap:30px;
+
+	img {
+		grid-column:2/3;
+		grid-row:1/2;
+		width:250px;
+		height:auto;
+		padding:10px;
+
+
+	}
+
+	p {
+		grid-column:1/2;
+		padding:10px;
+		line-height:30px;
+		
+	}
+
+}
+
+
+
+
 
 .footer {
 	position:fixed;
