@@ -15,6 +15,7 @@
 		display:grid;
 		grid-template-columns:1fr 1fr 1fr 1fr;
 		grid-gap:5px;
+    padding: 5px 10px 25px 10px;
 
 	&:hover img {
 		opacity: .6;
