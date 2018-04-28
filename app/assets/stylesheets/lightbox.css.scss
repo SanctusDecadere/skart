@@ -7,7 +7,13 @@
 
 
 
-
+.container {
+  // All images reduced opacity when any point on gallery is hovered.
+  &:hover img {
+    opacity: .6;
+    // transform: scale(.82);
+    }
+}
 
 /* Vertical Thumbnail Styles with CSS GRID*/
 
@@ -15,12 +21,12 @@
 		display:grid;
 		grid-template-columns:1fr 1fr 1fr 1fr;
 		grid-gap:20px;
-    padding: 5px 10px 25px 10px;
+    padding: 50px 100px 25px 100px;
 
-	&:hover img {
-		opacity: .6;
-		// transform: scale(.82);
-		}
+	// &:hover img {
+	// 	opacity: .6;
+	// 	// transform: scale(.92);
+	// 	}
 
 	img {
 		display: block;
@@ -45,12 +51,12 @@
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-gap:20px;
-    padding: 5px 10px 25px 10px;
+    padding: 0px 100px 100px 100px;
 
-  &:hover img {
-    opacity: .6;
-    transform: scale(.92);
-    }
+  // &:hover img {
+  //   opacity: .6;
+  //   transform: scale(.92);
+  //   }
 
   img {
     display: block;
