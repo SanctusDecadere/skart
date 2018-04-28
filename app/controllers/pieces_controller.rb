@@ -5,6 +5,11 @@ class PiecesController < ApplicationController
 		
 	end
 
+	def contact
+	
+		
+	end
+
 
 
 

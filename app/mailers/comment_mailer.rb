@@ -7,10 +7,10 @@ class CommentMailer < ApplicationMailer
   #
   def new_comment
     # @greeting = "Hi"
-    @name
-    @email
-    @comment
+    # @name
+    # @email
+    # @comment
 
-    mail to: "smfxcmes4@gmail.com"
+    mail to: 'smfxcmes4@gmail.com', subject: "New Comment for Katie"
   end
 end
