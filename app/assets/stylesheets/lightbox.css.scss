@@ -9,17 +9,17 @@
 
 
 
-/* Thumbnail Styles with CSS GRID*/
+/* Vertical Thumbnail Styles with CSS GRID*/
 
 .thumbnails {
 		display:grid;
 		grid-template-columns:1fr 1fr 1fr 1fr;
-		grid-gap:5px;
+		grid-gap:20px;
     padding: 5px 10px 25px 10px;
 
 	&:hover img {
 		opacity: .6;
-		transform: scale(.92);
+		// transform: scale(.82);
 		}
 
 	img {
@@ -30,14 +30,43 @@
 		
 	}
 /*This rule overides the thumbnail:hover effect on all images. */
-	img:hover {
-		opacity:1;
-		transform: scale(1) rotate(2deg);
-		box-shadow:0 0 7px rgba(0, 0, 0, 0.5);
+	 img:hover {
+	 opacity:1;
+	 transform: scale(1) rotate(2deg);
+	 box-shadow:0 0 7px rgba(0, 0, 0, 0.5);
 
 	}
 }
 
+
+/* Horizontal Thumbnail Styles with CSS GRID*/
+
+.horizontal-thumbnails {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+    padding: 5px 10px 25px 10px;
+
+  &:hover img {
+    opacity: .6;
+    transform: scale(.92);
+    }
+
+  img {
+    display: block;
+    transition: all .2s ease-in-out;
+    max-width:100%;
+    height:auto;
+    
+  }
+/*This rule overides the thumbnail:hover effect on all images. */
+   img:hover {
+   opacity:1;
+   transform: scale(1) rotate(2deg);
+   box-shadow:0 0 7px rgba(0, 0, 0, 0.5);
+
+  }
+}
 
 
 
