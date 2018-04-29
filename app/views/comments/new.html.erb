@@ -1,0 +1,28 @@
+Enter your comment here puhlease
+
+
+
+
+
+<%= form_for @comment do |f| -%>
+	Name: <%= f.text_field :name %><br />
+	Email: <%= f.text_field :email %><br />
+	Comment: <%= f.text_field :comment %><br />
+	Do it!: <%= f.submit %>
+<% end -%>
+
+
+
+
+
+<!-- 		<div class="contact-form">
+			<form id="contact-form" method="post" action="">
+				<input name="name"	type="text" class="form-control" placeholder="Your Name" required><br>
+
+				<input name="email"	type="email" class="form-control" placeholder="Your Email" required><br>
+
+				<textarea name="comment"  class="form-control" placeholder="Comment" rows="4" required></textarea><br>
+
+				<input type="submit" class="form-control submit" value="SEND MESSAGE">
+			</form><br>
+		</div> -->
