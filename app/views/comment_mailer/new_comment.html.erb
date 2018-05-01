@@ -1,13 +1,4 @@
-<!-- <h1>Comment#new_comment</h1>
 
-<p>
-  <%= @greeting %>, find me in app/views/comment_mailer/new_comment.html.erb
-</p>
- -->
-<p>  A new comment was posted for you from <%= @name %> at <%= @email %></p>
+<p> A new comment was posted for you from <%= @comment.name %> at <%= @comment.email %></p><br>
 
- <p><%= @comment.name %></p>
-<p><%= @comment.email %></p>
-<p><%= @comment.comment %></p>
- 
-Glad you could make it!
+<p>Comments:<br><%= @comment.comment %></p><br>

@@ -1,15 +1,14 @@
-Enter your comment here puhlease
 
 
-
-
-
-<%= form_for @comment do |f| -%>
-	Name: <%= f.text_field :name %><br />
-	Email: <%= f.text_field :email %><br />
-	Comment: <%= f.text_field :comment %><br />
-	Do it!: <%= f.submit %>
-<% end -%>
+<div class="contact-form">
+	<p>Please feel free to contact me with any questions or comments and I'll get back to you as fast as I can! Thanks for visiting!</p><br>
+	<%= form_for @comment do |f| -%>
+		<%= f.text_field :name, :required => true, :placeholder => "Name" %><br><br>
+		<%= f.text_field :email, :required => true, :placeholder => "Email" %><br><br>
+		<%= f.text_field :comment, :required => true, :placeholder => "Comment" %><br><br>
+		<%= f.submit "Send it my way!", :class => 'submit-button' %>
+	<% end -%>
+</div>
 
 
 
