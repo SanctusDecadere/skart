@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
-	root 'pieces#index'
+	resources :comments
+
+		root 'comments#new'
+
+	# root 'pieces#index'
 
 	get "pieces/index"
 
@@ -9,6 +13,16 @@ Rails.application.routes.draw do
 	get "pieces/about"
 
 	get "pieces/contact"
+
+	
+
+	# get "comments/new"
+
+
+
+
+
+
 
 
 
