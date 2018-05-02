@@ -2,9 +2,8 @@ Rails.application.routes.draw do
 
 	resources :comments
 
-		root 'comments#new'
 
-	# root 'pieces#index'
+	root 'pieces#index'
 
 	get "pieces/index"
 
