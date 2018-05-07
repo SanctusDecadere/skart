@@ -18,7 +18,12 @@
 @import 'normalize';
 
 html {
-	background-color:gray;
+	// background-color:gray;
+	background: linear-gradient(0deg ,rgba(20,43,138, 0.2),
+		                              rgba(131,43,138, 0.2), 
+		                              rgba(20,43,138, 0.2));
+	
+
 }
 
 body {
